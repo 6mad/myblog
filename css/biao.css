@@ -1,0 +1,1021 @@
+.kuang{
+    margin: 0;
+    background-color: #f0f;
+    height: 400px;
+}
+.kuang ul{
+    list-style-type: none;
+    display: inline;
+}
+.kuang li{
+    float: left;
+}
+
+.zi{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi1{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi2{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi3{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi4{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi5{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi6{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi7{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi8{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+.zi9{
+    position: relative ;
+    top: 30px;
+    margin: 25px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: black;
+    width: 120px;
+    height: 280px;
+    
+}
+
+.zi #z1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f0f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+#dian{
+    position: absolute;
+    top: 140px;
+    width: 10px;
+    height: 80px;
+    margin: 0px;
+    border-top:20px solid #f0f;
+    border-bottom: 20px solid #f0f;
+}
+#dian1{
+    position: absolute;
+    top: 140px;
+    width: 10px;
+    height: 80px;
+    margin: 0px;
+    border-top:20px solid #f0f;
+    border-bottom: 20px solid #f0f;
+}
+/* .h1 .zi #z1{
+    border-top: 20px solid #000;
+
+} */
+.zi1 #z1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f0f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi1 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi1 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi1 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi1 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f0f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi1 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi1 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi1 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi2 #z1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi2 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi2 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi2 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi2 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi2 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi2 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #f0f ;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi2 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi3 #z1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi3 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi3 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi3 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi3 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi3 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi3 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi3 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi4 #z1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f0f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi4 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi4 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi4 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi4 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi4 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi4 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi4 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi5 #z1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi5 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi5 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi5 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi5 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi5 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi5 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi5 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi6 #z1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi6 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi6 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi6 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi6 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi6 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi6 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi6 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi7 #z1{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid red;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi7 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi7 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi7 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi7 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f0f;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi7 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi7 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi7 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #f0f;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi8 #z1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi8 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi8 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi8 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi8 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi8 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi8 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi8 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi9 #z1
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi9 #z2{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi9 #z3{
+    position: absolute;
+    left: 110px;
+    top: 10px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi9 #z4{
+    position: absolute;
+    top: 130px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi9 #z5
+{
+    position: absolute;
+    top: 140px;
+    left: 0;
+    border-top: 10px solid #f00;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}
+.zi9 #z6{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #f0f;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi9 #z7{
+    position: absolute;
+    left: 110px;
+    top: 150px;
+    border-top: 10px solid transparent;
+    border-right: 10px solid red;
+    border-bottom: 10px solid transparent;
+    height: 100px;
+    width: 0px;
+    margin: 0 0 0 0;
+}
+.zi9 #z8{
+    position: absolute;
+    top: 270px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid red;
+    height: 0px;
+    width: 100px;
+    margin: 0 0 0 0;
+}

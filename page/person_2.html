@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>栏目文章列表</title>
+    <link rel="stylesheet" href="../plugin/layui/css/layui.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+    <header>
+        <div class="layui-row header-bigimg" style="height: 0;" ></div>
+        <div class="layui-row subject-color nav-row">
+            <div class="main-content nav-menu">
+                <div id="top" class="layui-row">
+                    <div class="layui-col-md2 logo-box">
+                        <a href="#top" title="306">
+                            <img src="../imgs/canreplace/newlogo1.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="layui-col-md7 menu-box">
+                        <ul class="menu-ul">
+                           <a href="../home.html#top">
+                               <li>首页</li>
+                           </a>
+                            <a href="../columntype.html">
+                                <li>技术文章</li>
+                            </a>
+                            <a href="#top">
+                                <li>程序人生</li>
+                            </a>
+                            <a href="#top">
+                                <li>生活</li>
+                            </a>
+                            <a href="../content.html">
+                                <li>内容页</li>
+                            </a>
+                            <a href="../login.html">
+                                <li style="float: right;">登陆</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="layui-col-md3 search-box">
+                        <div class="search-input-div">
+                            <div class="layui-row">
+                                <div class="layui-col-md10 input-box">
+                                    <input class="search-input" placeholder="请输入关键字进行搜索">
+                                </div>
+                                <div class="layui-col-md2 search-btn-box">
+                                    <img src="../imgs/icon/search.png" height="36" width="36"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-content item-box">
+        <div class="item-type">
+            <div class="column-item layui-row">
+                <div class="column-item-title layui-row subject-color font-color1 font-bold">博主简介</div>
+                <div class="jianjie-p layui-row">这是博客当前栏目的简介信息，此处是技术文章栏目，主要分享一些编程技术或者知识点，以及一些Exception和莫名其妙的文章。</div>
+            </div>
+            <div class="column-item layui-row">
+                <div class="column-item-title layui-row subject-color font-color1 font-bold">栏目文章分类</div>
+                <ul class="column-item-ul">
+                    <a href="#"><li>Java<span>15篇</span></li></a>
+                    <a href="#"><li>PHP<span>6篇</span></li></a>
+                    <a href="#"><li>C#<span>22篇</span></li></a>
+                    <a href="#"><li>Android<span>6篇</span></li></a>
+                    <a href="#"><li>Python<span>61篇</span></li></a>
+                    <a href="#"><li>混合开发<span>12篇</span></li></a>
+                    <a href="#"><li>SEO<span>33篇</span></li></a>
+                    <a href="#"><li>SQL<span>41篇</span></li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="item-list">
+            <div class="list-param-sort layui-row">
+                排序：<span><a href="#" class="chosen-sort">时间(默认)</a></span><span><a href="#">访问量</a></span><span><a href="#">评论数</a></span>
+            </div>
+            <ul class="article-ul">
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">HTTPS加密过程</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>1.HTTP和HTTPS的区别与联系：
+二者都是网络传输协议，https是http的升级版、安全版，https是在http基础上进行加密的。
+连接方式不同：http的连接很简单，是无状态的；https 协议是由SSL+HTTP协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">MySQL高可用化</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>MySQL高可用化
+服务在运行过程中存在很多意外情况，如：如服务器宕机、磁盘损坏、RAID卡损坏等。如何保证数据库在服务发生意外的情况下数据不丢失呢？服务还能继续提供服务呢？
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">java5、java6、java7、java8、java9新特性</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>1. 介绍
+
+JAVA作为使用的主力语言，掌握下其历史发展也是有必要的。看看从JAVA5开始到现在的JAVA9有哪些变化。借此机会，也可以看看哪些特性我们是已经用到的，哪些是还没有用到的。这种伪代码本质是它最大的优点之一。
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">一文让你了解Python，人生苦短，我选Python！</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>简单
+
+Python 是一种代表简单主义思想的语言。阅读一个良好的 Python 程序就感觉像是在读英语一样，尽管这个英语的要求非常严格！Python 的这种伪代码本质是它最大的优点之一。
+它使你能够专注于解决问题而不是去搞明白语言本身。
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">Git 配置SSH秘钥 For Mac</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>一、背景
+现在使用基于Git 作为开发项目的管理工具已经非常普遍，很多与Git相关的平台工具的基本配置和使用方法都类似，现主要总结一下Git的基本配置，教你如何从已经存在项目的Git上clone代码到本地。
+
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="article-list-row layui-row">
+                        <div class="article-li-title layui-row">
+                            <h3 class="font-bold layui-elip"><a href="#">Java泛型简单的使用</a></h3>
+                        </div>
+                        <div class="article-li-msg"><p>前言
+Java里面的泛型在实际开发中运用的很多，学过C++的同学一定知道C++的模板，而Java中的泛型，一定程度上和它还是挺像的。
+相信写Java的人，大都有用过List的实现类ArrayList。
+</p></div>
+                        <div class="article-li-param layui-row">
+                            2020-06-23 8:00<span>阅读数：529万</span><span>评论数：12万</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="page-box layui-row">
+                <div id="pageItem"></div>
+            </div>
+        </div>
+    <div class="item-right">
+        <div class="right-one-row layui-row pane-bg-radius">
+            <div class="visit-img-box top-radius">
+                <img src="../imgs/canreplace/headimgbg.jpg" class="top-radius"/>
+            </div>
+            <div class="headimg-box">
+                <img src="../imgs/canreplace/liu.jpg"/>
+            </div>
+            <div class="nickname layui-row row-align text-align-center">
+                刘本胜
+                <span><img src="../imgs/icon/man.png" height="32"width="32"/></span>
+            </div>
+            <div class="padding-hr layui-row common-padding-x">
+                <div class="hr-line-div"></div>
+            </div>
+            <div class="mine-msg layui-row common-padding font-size1 font-color5">
+                <div class="layui-row row-align">
+                    <div class="msg-name layui-col-md3">Q Q ：</div>
+                    <div class="msg-val layui-col-md9">******</div>
+                </div>
+                <div class="layui-row row-align">
+                    <div class="msg-name layui-col-md3">邮箱 ：</div>
+                    <div class="msg-val layui-col-md9">******@qq.com</div>
+                </div>
+                <div class="layui-row row-align">
+                    <div class="msg-name layui-col-md3">职业 ：</div>
+                    <div class="msg-val layui-col-md9">祖安代练师，人头收割机</div>
+                </div>
+                <div class="layui-row row-align">
+                    <div class="msg-name layui-col-md3">个人签 ：</div>
+                    <div class="msg-val layui-col-md9">******************</div>
+                </div>
+                <div class="layui-row row-align">
+                    <div class="msg-name layui-col-md3">工作室 ：</div>
+                    <div class="msg-val layui-col-md9">九栋306</div>
+                </div>
+            </div></div></div></div>
+    <footer>
+        <div class="footer-box">
+            <div class="main-content">
+                <strong>gogogo</strong><a href="home.html#top">疯~~</a><span>备案号：<a href="http://gg.hlovell.com/gg/web/1.html" target="_blank">待待待000000000</a></span>
+                <span>疯人测试网站：<a href="http://gg.hlovell.com/gg/web/1.html" target="_blank">gg.hlovell.com</a></span>
+            </div>
+        </div>
+    </footer>
+    <div class="fixed-btn">
+        <a class="go-top" href="#top" title="返回顶部"> <i class="fa fa-angle-up"></i></a>
+        <a class="qrcode"  href="javascript:void(0)" onclick="if(document.getElementById('bottom-qrcode').style.display=='none') document.getElementById('bottom-qrcode').style.display='block'; else document.getElementById('bottom-qrcode').style.display='none';" title="关注我们"><i class="fa fa-qrcode"></i></a>
+        <div id="bottom-qrcode" class="beiqrcode">
+          <h4>微信关注</h4>
+          <div class="panel-body"><img alt="微信关注" width="128" height="128" src="../imgs/canreplace/ma.jpg"></div> 
+        </div>
+      </div>
+    <div class="lianxi-qq">
+        <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=3240855315&site=qq&menu=yes">
+            <img border="0" src="http://wpa.qq.com/pa?p=2:3240855315:51" alt="疯神" title="疯神"/>
+        </a>
+        <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=1c7a4c4a52a407aa95a9a7f694ed445d17c3c4b21ab8e00028a3cdf3ea8faf02">
+            <img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="驻风阁" title="驻风阁">
+        </a>
+      </div>
+<script src="../plugin/layui/layui.js"></script>
+<script>
+    layui.use('laypage', function(){
+        var laypage = layui.laypage;
+
+        //执行一个laypage实例
+        laypage.render({
+            elem: 'pageItem', //注意，这里的 test1 是 ID，不用加 # 号
+            count: 50, //数据总数，从服务端得到
+            jump: function(obj, first){
+                //obj包含了当前分页的所有参数，比如：
+                console.log('当前页数：'+obj.curr); //得到当前页，以便向服务端请求对应页的数据。
+                console.log('每页数量：'+obj.limit); //得到每页显示的条数
+                //首次不执行
+                if(!first){
+                   console.log('执行')
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>

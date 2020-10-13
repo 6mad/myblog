@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录-306大神俱乐部</title>
+    <link rel="stylesheet" href="plugin/layui/css/layui.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+<div class="login-bg subject-color layui-row"></div>
+<div class="login-box">
+    <div class="login-title layui-row">
+        <h2>登录</h2>
+    </div>
+    <form action="" method="post">
+    <div class="hr-line-div"></div>
+    <div class="login-form">
+        <p>邮箱：</p>
+        <input type="email" onsubmit="return (validateForm()) " required="required" placeholder="请输入邮箱地址" id="email" class="layui-input">
+    </div>
+    <div class="login-form">
+        <p>密码：<span onclick="window.open('resetpwd.html')" >忘记密码？</span></p>
+        <input type="password" required="required" placeholder="请输入密码" class="layui-input" id="password">
+    </div>
+    <div class="login-form">
+        <p>验证码：</p>
+        <div class="layui-row row-align">
+            <div class="valicode-box">
+                <input type="text" id="code_input" value="" placeholder="请输入验证码"/>
+            </div>
+            <div class="valicode-img-box">
+                <span id="v_container" style="width: 200px;height: 50px;"></span>
+            </div>
+        </div>
+    </div>
+    <div class="login-form" style="margin-top: 15px;">
+        <input type="submit" class="layui-btn layui-btn-fluid layui-btn-normal" id="my_button" value="登陆">
+    </div>
+</form>
+    <div class="login-form">
+        <button class="layui-btn layui-btn-fluid" onclick="window.open('register.html' ,'_self','','false' );">注册</button>
+    </div>
+    <div class="disanfan-login login-form row-align">
+        <img src="imgs/icon/icon_QQ.png" height="48" width="48"/>
+    </div>
+</div>
+</body>
+<script src="js/wer.js"></script>
+<script>
+    var verifyCode = new GVerify("v_container");
+    document.getElementById("my_button").onclick = function validateForm(){
+        var res1 = document.getElementById("email").value;
+        var res2 = document.getElementById("password").value;
+        var res = verifyCode.validate(document.getElementById("code_input").value);
+        if(res1){
+            if(res1=="123@qq.com"){
+            if(res2){
+            if(res2=="123456"){
+                if(res){ 
+                    window.open("home.html#top?index=true");
+                }
+        else{
+            alert("验证码错误");
+        }
+               }
+            else{
+                alert("密码错误")
+            }
+        }}
+            else{
+                alert("邮箱填写错误")
+            }
+        
+    }
+
+    }
+</script>
+</html>
