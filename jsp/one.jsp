@@ -198,7 +198,7 @@ listSore.add(new Double(67));
 <h3 id="li11">例11</h3>
 <h1>p43</h1>
 <a href="/jsp/li10_1.jsp">去完成</a>
-<button onclick='<%! String str ="已完成";%>'>点我</button>
+<!-- <button onclick='<%! String str ="已完成";%>'>点我</button> -->
 <div><%=str%></div>
 
 <h3 id="li12">例12</h3>
