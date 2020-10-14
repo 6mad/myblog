@@ -248,7 +248,18 @@ out.print("<br><br>");
 <font size=5>以上表明状态码只表明状态并不决定状态</font>
 <br><br>
 <font size=7>!!!!这是具有象征意义的一句话 我步入了git时代</font>>
-<script src="https://gist.github.com/6mad/f7756e2d6ca78d8a0aad246f8f5dc7df.js"></script>
+
+<%-- 以上是自己gist的小尝试 --%>
+
+<h3 id="li16">例16</h3>
+<h1>p87</h1>
+<h1>session对象</h1>
+<a href="li16_1.jsp">去完成</a>
+
+<h3 id="li17">例17</h3>
+<h1>p95</h1>
+<h1>计数器 回忆java IO流操作</h1>
+<a href="li17_1.jsp">去完成</a>
 </body>
 
 </html>
