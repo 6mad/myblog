@@ -22,25 +22,26 @@
  %></center>
 <h1><a id="top" href="/home.html#top"> 呃呃呃 one one go!!</a></h1>
 <h2>
+  <!-- 导航列表 -->
 <ul>
-  <li><a href="#li1">例1</a> </li>
+  <li><a href="#li1">例1 乘法表</a> </li>
   <li><a href="#li2">例2</a> </li>
   <li><a href="#li3">例3</a> </li>
-  <li><a href="#li4">例4</a> </li>
-  <li><a href="#li5">例5</a> </li>
+  <li><a href="#li4">例4 菜鸟教程 JSP 测试实例 1</a> </li>
+  <li><a href="#li5">例5 菜鸟教程 JSP 测试实例 2</a> </li>
   <li><a href="#li6">例6</a> </li>
   <li><a href="#li7">例7</a> </li>
-  <li><a href="#li8">例8</a> </li>
+  <li><a href="#li8">例8 tag</a> </li>
   <li><a href="#li9">例9</a> </li>
   <li><a href="#li10">例10</a> </li>
-  <li><a href="#li11">例11</a> </li>
-  <li><a href="#li12">例12</a> </li>
-  <li><a href="#li13">例13</a> </li>
-  <li><a href="#li14">例14</a> </li>
-  <li><a href="#li15">例15</a> </li>
-  <li><a href="#li16">例16</a> </li>
-  <li><a href="#li17">例17</a> </li>
-  <li><a href="#li18">例18</a> </li>
+  <li><a href="#li11">例11 特朗普数据传输实例</a> </li>
+  <li><a href="#li12">例12 获取用户提交信息任务</a> </li>
+  <li><a href="#li13">例13 获取页面连接信息</a> </li>
+  <li><a href="#li14">例14 response重定向</a> </li>
+  <li><a href="#li15">例15 response 状态行</a> </li>
+  <li><a href="#li16">例16 session对象</a> </li>
+  <li><a href="#li17">例17 计数器</a> </li>
+  <li><a href="#li18">例18 application制作留言板</a> </li>
   <li><a href="#li19">例19</a> </li>
   <li><a href="#li20">例20</a> </li>
   <li><a href="#li21">例21</a> </li>
@@ -260,6 +261,50 @@ out.print("<br><br>");
 <h1>p95</h1>
 <h1>计数器 回忆java IO流操作</h1>
 <a href="li17_1.jsp">去完成</a>
+
+
+<h3 id="li18">例18</h3>
+<h1>p99</h1>
+<h1>application制作留言板</h1>
+<br><hr0>
+<form action="" method="get">
+输入你的名字：<input type="text" name="name"><br>
+留言标题：<input type="text" name="title"><br>
+输入留言内容：<br>
+<textarea name="messages" rows="10" cols="36" wrap="physical"></textarea><br>
+<input type="submit" value="提交" onclick=fush(){$('form').reset()}>
+
+</form>
+
+<%! Vector<String> v = new Vector<String>();
+int i = 0;
+ServletContext application;
+synchronized void sendMessage(String s){
+  application = getServletContext();
+  v.add(s);
+  application.setAttribute("Mess",v);
+}
+%>
+
+<%
+request.setCharacterEncoding("UTF-8");
+String name=request.getParameter("name");
+request.setCharacterEncoding("UTF-8");
+String title =request.getParameter("title");
+request.setCharacterEncoding("UTF-8");
+String messages =request.getParameter("messages");
+if(name!=null&&title!=null&&messages!=null){
+String time=getDateTimeDay();
+String s= name+"#"+title+"#"+time+"#"+messages;
+sendMessage(s);
+out.println("你的信息已提交成功√√√");
+} 
+else if(name==null&&title==null&&messages==null);
+else{
+  out.println("信息错误，请填写完整！");
+}
+%>
+<a href="li18_1.jsp">查看留言板</a>
 </body>
 
 </html>
