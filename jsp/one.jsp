@@ -1,5 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" errorPage="error.jsp" %>
 <%@ page import = "java.util.*" %>
+<%@ page import = "java.io.*" %>
 <%@ page import = "java.text.SimpleDateFormat" %>
 <!DOCTYPE html>
 <html>
@@ -42,7 +43,7 @@
   <li><a href="#li16">例16 session对象</a> </li>
   <li><a href="#li17">例17 计数器</a> </li>
   <li><a href="#li18">例18 application制作留言板</a> </li>
-  <li><a href="#li19">例19</a> </li>
+  <li><a href="#li19">例19 file操作 列出指定类型文件</a> </li>
   <li><a href="#li20">例20</a> </li>
   <li><a href="#li21">例21</a> </li>
   <li><a href="#li22">例22</a> </li>
@@ -289,22 +290,65 @@ synchronized void sendMessage(String s){
 <%
 request.setCharacterEncoding("UTF-8");
 String name=request.getParameter("name");
-request.setCharacterEncoding("UTF-8");
+
 String title =request.getParameter("title");
-request.setCharacterEncoding("UTF-8");
+
 String messages =request.getParameter("messages");
-if(name!=null&&title!=null&&messages!=null){
+if(name==null&&title==null&&messages==null);
+else if(name!=""&&title!=""&&messages!=""){
 String time=getDateTimeDay();
 String s= name+"#"+title+"#"+time+"#"+messages;
 sendMessage(s);
-out.println("你的信息已提交成功√√√");
+out.println("<p>你的信息已提交成功√√√<br>");
 } 
-else if(name==null&&title==null&&messages==null);
 else{
-  out.println("信息错误，请填写完整！");
+  out.println("<p>信息错误，请填写完整！<br>");
 }
 %>
 <a href="li18_1.jsp">查看留言板</a>
+<br><br><br>
+
+<h3 id="li19">例19</h3>
+<h1>p111</h1>
+<h1>file操作 列出指定类型文件</h1>
+<form action="" method="post">
+输入目录：<input type="text" name="dir"><br>
+输入列出文件类型：<input type="text" name="_end"><br>
+<input type="submit" value="查找">
+</form>
+<%!
+class fileName implements FilenameFilter{
+  String str=null;
+  fileName(String s){
+    str="."+s;
+  }
+  public boolean accept(File dir,String name){
+    return name.endsWith(str);
+  }
+}
+%><%
+request.setCharacterEncoding("UTF-8");
+String dir=request.getParameter("dir");
+String _end =request.getParameter("_end");
+if(dir!=null&&_end!=null){
+  File dirFile =new File(dir);
+  if(dirFile.isDirectory()){
+    String file_name[];
+    if(_end!=""){
+fileName filename = new fileName(_end);
+         file_name = dirFile.list(filename);
+} else {
+         file_name = dirFile.list();
+  }
+    for(String fname : file_name)
+    out.println("<br>"+fname);
+  }
+else {
+  out.println("<br>错误！请输入目录！！");
+}
+}
+
+%>
 </body>
 
 </html>

@@ -6,7 +6,7 @@
 <% Vector<String> v=(Vector)application.getAttribute("Mess");
 out.print("<table border=2>");
 out.print("<tr>");
-out.print("<td bgcolor=cyan>"+"留言者信息"+"</td>");
+out.print("<td bgcolor=cyan>"+"留言者姓名"+"</td>");
 out.print("<td bgcolor=cyan>"+"留言标题"+"</td>");
 out.print("<td bgcolor=cyan>"+"留言时间"+"</td>");
 out.print("<td bgcolor=cyan>"+"留言"+"</td>");
@@ -28,7 +28,7 @@ for(int i=0;i<v.size();i++){
 
  out.print("</table>");
  %>
-<br><a href="one.jsp">返回</a>
+<br><a href="one.jsp#li18">返回</a>
 <%-- <a href="li18_2.jsp">清空留言板</a> --%>
 </body>
 </html>
