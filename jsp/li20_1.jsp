@@ -8,11 +8,20 @@
 <p>log记录<br>
 <a href="one.jsp">返回</a>
 <%
-File log = new File("F:/code/log.txt");
+byte a[] = new byte[100];
+int i;
+File log = new File("/home","log.txt");
 try{
-InputStream readfile = FileInputStream(log);
-
+InputStream readfile = new FileInputStream(log);
+while((i=readfile.read(a))!=-1)
+{ 
+    String temp= new String(a,0,i,"utf-8");
+out.println(temp);
+out.println("<br>");}
+} catch(IOException e){
+    out.print(e.toString());
 }
+
 %>
 </body>
 </html>

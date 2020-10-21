@@ -1,4 +1,4 @@
-<%@ page contentType="text/html;charset=UTF-8" errorPage="error.jsp" %>
+<%@ page contentType="text/html;charset=UTF-8" errorPage="" %>
 <%@ page import = "java.util.*" %>
 <%@ page import = "java.io.*" %>
 <%@ page import = "java.text.SimpleDateFormat" %>
@@ -9,6 +9,7 @@
 <title>one one go!!</title>
 </head>
 <body>
+
   <%! 
   
   String getDateTimeDay(){
@@ -334,8 +335,7 @@ String dir=request.getParameter("dir");
 String _end =request.getParameter("_end");
 if(dir!=null&&_end!=null){
   File dirFile =new File(dir);
-  if(dirFile.isDirectory()){
-    
+  if(dirFile.isDirectory()){   
     if(_end!=""){
 fileName filename = new fileName(_end);
          file_name = dirFile.list(filename);
@@ -349,14 +349,16 @@ else {
   out.println("<br>错误！请输入目录！！");
 }
 }
+
 %>
 
 <h3 id="li20">例20</h3>
 <h1>p111</h1>
 <h1>file操作 保存例19的输出文件到log.txt</h1>
-<buatton name="save" >保存</button>
+<button name="save" >保存</button>
 <a href="li20_1.jsp">查看保存的文件</a>
 <%
+if(file_name!=null){
 File log = new File("/home","log.txt");
 if(!log.exists()) log.createNewFile();
 try{
@@ -370,8 +372,10 @@ for(String fname : file_name){
 outfile.close();
 } catch(IOException e) {
   out.print(e);
-}
+}}
    %>
+
+
 </body>
 
 </html>
