@@ -354,10 +354,10 @@ else {
 <h3 id="li20">例20</h3>
 <h1>p111</h1>
 <h1>file操作 保存例19的输出文件到log.txt</h1>
-<button name="save" onclick="$rr=true">保存</button>
+<button name="save" >保存</button>
 <a href="li20_1.jsp">查看保存的文件</a>
 <%
-File log = new File("F:/code","log.txt");
+File log = new File("log.txt");
 if(!log.exists()) log.createNewFile();
 try{
 OutputStream outfile = new FileOutputStream(log,true);
