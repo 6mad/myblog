@@ -317,6 +317,8 @@ else{
 <input type="submit" value="查找">
 </form>
 <%!
+String text;
+String file_name[];
 class fileName implements FilenameFilter{
   String str=null;
   fileName(String s){
@@ -333,7 +335,7 @@ String _end =request.getParameter("_end");
 if(dir!=null&&_end!=null){
   File dirFile =new File(dir);
   if(dirFile.isDirectory()){
-    String file_name[];
+    
     if(_end!=""){
 fileName filename = new fileName(_end);
          file_name = dirFile.list(filename);
@@ -347,7 +349,28 @@ else {
   out.println("<br>错误！请输入目录！！");
 }
 }
+%>
 
+<h3 id="li20">例20</h3>
+<h1>p111</h1>
+<h1>file操作 保存例19的输出文件到log.txt</h1>
+<button name="save" onclick="$rr=true">保存</button>
+<a href="li20_1.jsp">查看保存的文件</a>
+<%
+File log = new File("F:/code","log.txt");
+if(!log.exists()) log.createNewFile();
+try{
+OutputStream outfile = new FileOutputStream(log,true);
+outfile.write(getDateTimeDay().getBytes("UTF-8"));
+outfile.write("\n".getBytes("UTF-8"));
+for(String fname : file_name){
+  outfile.write(fname.getBytes("UTF-8"));
+  outfile.write("\n".getBytes("UTF-8"));
+}   
+outfile.close();
+} catch(IOException e) {
+  out.print(e);
+}
 %>
 </body>
 
