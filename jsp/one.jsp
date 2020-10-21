@@ -357,7 +357,7 @@ else {
 <button name="save" >保存</button>
 <a href="li20_1.jsp">查看保存的文件</a>
 <%
-File log = new File("log.txt");
+File log = new File("\\log.txt");
 if(!log.exists()) log.createNewFile();
 try{
 OutputStream outfile = new FileOutputStream(log,true);
