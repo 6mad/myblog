@@ -374,8 +374,9 @@ outfile.close();
   out.print(e);
 }}
    %>
-
-<iframe src="/home/index.m3u8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+   <br>
+   <h1>呃呃 能播放么</h1>
+<iframe src="https://z1.m1907.cn/?jx=https://www.bilibili.com/bangumi/play/ss28747/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:465px;width:900px" >
 </iframe>
 
 </body>
