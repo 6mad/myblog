@@ -375,6 +375,8 @@ outfile.close();
 }}
    %>
 
+<iframe src="/home/index.m3u8" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true">
+</iframe>
 
 </body>
 
