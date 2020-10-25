@@ -78,7 +78,7 @@ jspContext.setAttribute("message","上传成功！！");
 jspContext.setAttribute("fileName","/userupfile/image/"+fileName);
 f1.delete();
 }catch(Exception ee){
-    out.print(ee);
+    out.print(ee+"file路径:"+parentDir);
     jspContext.setAttribute("message","没有选择文件或者文件上传失败");
 }
 %>
