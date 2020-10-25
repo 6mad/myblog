@@ -7,7 +7,7 @@
 <body>
 <p></p><br>
 <a href="one.jsp">返回</a><br>
-<Fileup:fileup subdir="/userupfile/image"/>
+<Fileup:fileup subdir="userupfile/image"/>
 <%=message%>
 <br><image src="<%=fileName%>" width=260 ></image>
 
