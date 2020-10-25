@@ -45,9 +45,9 @@
   <li><a href="#li17">例17 计数器</a> </li>
   <li><a href="#li18">例18 application制作留言板</a> </li>
   <li><a href="#li19">例19 file操作 列出指定类型文件</a> </li>
-  <li><a href="#li20">例20</a> </li>
-  <li><a href="#li21">例21</a> </li>
-  <li><a href="#li22">例22</a> </li>
+  <li><a href="#li20">例20 file操作 保存例19的输出文件到log.txt</a> </li>
+  <li><a href="#li21">例21 呃一个视频窗口//很溜全网解析</a> </li>
+  <li><a href="#li22">例22 file操作 上传下载文件</a> </li>
   <li><a href="#li23">例23</a> </li>
 </ul>
 </h2>
@@ -375,10 +375,22 @@ outfile.close();
 }}
    %>
    <br>
+   <h3 id="li21">例21</h3>
    <h1>呃呃 能播放么</h1>
-<iframe src="https://z1.m1907.cn/?jx=https://www.bilibili.com/bangumi/play/ss28747/" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height:465px;width:900px" >
+<iframe src="https://z1.m1907.cn/?jx=https://www.bilibili.com/bangumi/play/ss28747/"
+scrolling="no" border="0" 
+frameborder="no" 
+framespacing="0" 
+allowfullscreen="true" 
+style="height:465px;width:900px" >
 </iframe>
-
+<br><br>
+<p><i>ps:</i>不能看的话去<a href="home.html#top"><i>首页</i></a>QQ跟我说
+<br>
+<h3 id="li22">例22</h3>
+<h1>p125</h1>
+<h1>file操作 上传下载文件</h1>
+<br><a href="li22_1.jsp">去上传文件</a>
 </body>
 
 </html>

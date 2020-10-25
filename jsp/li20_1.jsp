@@ -6,7 +6,7 @@
 <html>
 <body>
 <p>log记录<br>
-<a href="one.jsp">返回</a>
+<a href="one.jsp">返回</a><br>
 <%
 byte a[] = new byte[100];
 int i;
