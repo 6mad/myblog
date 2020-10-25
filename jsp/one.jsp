@@ -385,7 +385,7 @@ allowfullscreen="true"
 style="height:465px;width:900px" >
 </iframe>
 <br><br>
-<p><i>ps:</i>不能看的话去<a href="home.html#top"><i>首页</i></a>QQ跟我说
+<p><i>ps:</i>不能看的话去<a href="/home.html#top"><i>首页</i></a>QQ跟我说
 <br>
 <h3 id="li22">例22</h3>
 <h1>p125</h1>
