@@ -2,14 +2,18 @@
 <%@ page import = "java.util.*" %>
 <%@ page import = "java.io.*" %>
 <%@ page import = "java.text.SimpleDateFormat" %>
-<%@ taglib tagdir="/WEB-INF/tags" prefix="Fileup" %>
+<%@ taglib tagdir="/WEB-INF/tags" prefix="Fileload" %>
 <html>
 <body>
-<p>li22_2.jsp</p><br>
+<p>li22_3.jsp</p><br>
 <a href="one.jsp">返回</a><br>
-<Fileup:fileup subdir="userupfile/image"/>
+<%
+request.setCharacterEncoding("UTF-8");
+String loadpath=request.getParameter("filepath");
+
+%>
+<Fileload:fileload subdir="<%=loadpath%>" />
 <%=message%>
-<br><image src="<%=fileName%>" width=260 ></image>
 
 </body>
 </html>

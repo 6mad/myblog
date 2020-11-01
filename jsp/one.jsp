@@ -391,6 +391,17 @@ style="height:465px;width:900px" >
 <h1>p125</h1>
 <h1>file操作 上传下载文件</h1>
 <br><a href="li22_1.jsp">去上传文件</a>
+
+<br>
+   <h3 id="li23">例23</h3>
+   <h1>试下mysql JDBC驱动</h1>
+   <p>这页太乱了去个新页面<a href="li23_1.jsp">试试</a>
+   <br>
+<br>
+   <h3 id="li24">例24</h3>
+   <h1>随便试一下JavaBean</h1>
+   <%-- 傻 闲得无聊不知道来随便写写啊 --%>
+   
 </body>
 
 </html>

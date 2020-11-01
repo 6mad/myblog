@@ -2,13 +2,13 @@
 <font size=4>
 <%!
 int number=0;
-File file =new File("count.txt");
+File file =new File("F:/Download/apache-tomcat-9.0.37/webapps/userupfile/count.txt");
 synchronized void countPeople(){
 if(!file.exists()){
     number++;
     try{
         file.createNewFile();
-        FileOutputStream out = new FileOutputStream("count.txt");
+        FileOutputStream out = new FileOutputStream(file);
         DataOutputStream dataOut = new DataOutputStream(out);
         dataOut.writeInt(number);
         out.close();
@@ -17,13 +17,13 @@ if(!file.exists()){
 }
 else{
     try{
-        FileInputStream in = new FileInputStream("count.txt");
+        FileInputStream in = new FileInputStream(file);
         DataInputStream dataIn = new DataInputStream(in);
         number=dataIn.readInt();
         number++;
         in.close();
         dataIn.close();
-        FileOutputStream out = new FileOutputStream("count.txt");
+        FileOutputStream out = new FileOutputStream(file);
         DataOutputStream dataOut = new DataOutputStream(out);
         dataOut.writeInt(number);
         out.close();
